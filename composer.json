@@ -1,0 +1,25 @@
+{
+  "name": "zengin-code/zengin-php",
+  "description": "bank codes and branch codes for Japanese",
+  "keywords": ["bank code"],
+  "homepage": "https://github.com/thatblue/zengin-php",
+  "license": "MIT",
+  "require": {
+    "php": ">= 5.5",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.5 || ^4.8",
+    "php-coveralls/php-coveralls": "^2.1 || ^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZenginCode\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ZenginCode\\": "tests/"
+    }
+  }
+}
