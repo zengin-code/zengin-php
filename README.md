@@ -1,5 +1,5 @@
 # zengin-php
-The ruby implementation of ZenginCode.
+The PHP implementation of ZenginCode.
 
 ## Installation
 Install via [composer](https://getcomposer.org/).
