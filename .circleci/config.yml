@@ -1,0 +1,14 @@
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/zengin-php
+    docker:
+      - image: circleci/php:latest
+    steps:
+      - checkout
+      - run: sudo composer self-update
+      - run: composer install -n --prefer-dist
+      - run:
+          name: phpunit
+          command: ./vendor/bin/phpunit
